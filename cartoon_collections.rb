@@ -33,8 +33,8 @@ soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.find =  |cheese|
-  cheese_types.include?(cheese)
+  snacks.find =  |x|
+  cheese_types.include?(x)
   end
 end 
 
